@@ -67,6 +67,7 @@ header .navbar {
 .hero-section .content {
   max-width: 1200px;
   margin: 0 auto;
+  margin-left:auto;
   width: 100%;
   color: #fff;
 }
@@ -117,14 +118,14 @@ header .navbar {
   border: 1px solid #fff;
 }
 
-footer p {
+.copyright {
+  color: #fff;
+  margin:20px 0;
+  font-size: 0.9rem;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  min-width: 100vw;
   text-align: center;
-  color: #fff;
-  margin: 20px;
-  font-size: 0.9rem;
 }
 
 /* Menu Button  */
